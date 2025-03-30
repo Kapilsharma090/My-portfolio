@@ -432,6 +432,19 @@ grid-column:span 1;
             
             margin-left: -70%;}
            /*footer*/
+
+/*  git and linkdin icon */
+.github1{
+  width: 25px;
+  height:25px;
+
+}
+.linkdin1{
+  width: 25px;
+  height: 25px;
+}
+
+
    /* Footer Styling */
 .footer {
   background-color: #222;
