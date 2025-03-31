@@ -135,14 +135,6 @@ button{
     opacity: 1; 
   }
 
-
-
-
-
-
-
-
-
 .about img{
  
 margin-top: 135px;
@@ -170,7 +162,12 @@ width:fit-content;
 
 }
 
-/* skills section */
+.intro #discord{
+  width: 30px;
+  height: 30px;
+}
+
+/* language section */
 .skills{
 height: 607px;
 color:rgb(255, 255, 255);
@@ -221,24 +218,12 @@ margin-top: -10.7%;
 margin-left: 41.5%;
 }
 .css{
-margin-top: -18.2%;
+margin-top: -10.2%;
 height: 180px;
 margin-left: 66%;
 }
-/*footer section*/
-.footer{
-background-color: rgb(90, 90, 90);
-color:rgb(255, 255, 255);
-text-shadow: 2px 1px  7px  rgb(255, 255, 255);
-text-align: center;
-padding: 10px;
-width: 100%;
-   left: 0;
-   bottom:0;
-   
-position: fixed;
 
-  }
+
   /*grid certification*/
   
   .grid{
@@ -438,6 +423,20 @@ grid-column:span 1;
             margin-left: -70%;}
            /*footer*/
 
+
+           .footer{
+            background-color: rgb(100, 100, 100);
+            color:rgb(255, 255, 255);
+            text-shadow: 2px 1px  7px  rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+               left: 0;
+               bottom:0;
+               
+            position: fixed;
+            
+              }
 /*  git and linkdin icon */
 .github1{
   width: 25px;
@@ -451,12 +450,7 @@ grid-column:span 1;
 
 
    /* Footer Styling */
-.footer {
-  background-color: #222;
-  color: white;
-  padding: 20px 0;
-  font-family: Arial, sans-serif;
-}
+
 
 /* Footer Container */
 .footer-container {
@@ -471,6 +465,7 @@ grid-column:span 1;
 /* Footer Sections */
 .footer-section {
   flex: 1;
+  font-size: 40px ;
   text-align: center;
 }
 
@@ -483,7 +478,7 @@ grid-column:span 1;
 .footer-section p {
   font-size: 14px;
   font-weight: 300; /* Thin text */
-  color: #ccc; /* Slightly lighter color for elegance */
+  color: #ffffff; /* Slightly lighter color for elegance */
 }
 
 /* Social Media Icons */
