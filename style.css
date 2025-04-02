@@ -39,7 +39,7 @@ color: rgb(255, 255, 255);
 width: 50px;
 height: 30px;
 margin-top: 10px;
-margin-left: -300px;
+margin-left: -200px;
 border-radius: 8px;
 
 box-shadow: 2px 3px 6px rgb(202, 202, 202) ;
@@ -413,7 +413,11 @@ grid-column:span 1;
         
       grid-column: span 1;
       }
-            
+        
+    /* services*/ 
+     
+
+
 /* Footer Container */
  .footer{
   background-color: rgb(100, 100, 100);
