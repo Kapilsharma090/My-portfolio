@@ -89,6 +89,17 @@ border-radius: 10px;
 background-color: black;
 }
 
+.github1{
+  width: 25px;
+  height:25px;
+
+}
+.linkdin1{
+  width: 25px;
+  height: 25px;
+}
+
+
 /*about section start from here*/
 .box1{
 
@@ -153,7 +164,7 @@ border-radius: 7px;
 padding:10px;
 box-shadow: 2px 2px 2px black;
 background-color:rgb(255, 255, 255) ;
-margin-top: -180px;
+margin-top: -150px;
 width:fit-content;
 
 }
@@ -168,7 +179,7 @@ width:fit-content;
 }
 
 /* language section */
-.skills{
+.language{
 height: 607px;
 color:rgb(255, 255, 255);
 text-shadow: 2px 1px  8px  rgb(255, 255, 255);
@@ -177,7 +188,7 @@ background: linear-gradient( to right,
 rgb(89, 83, 92)
 )
 }
- .skills span{
+ .language span{
 padding: 5px;
 box-shadow: 2px 2px 2px #ffffff;
 width: 200px;
@@ -187,10 +198,10 @@ background-color: aliceblue;
    
 
  }
-.skills span:hover{
+.language span:hover{
 background-color: rgb(0, 0, 0);
 }
- .skills h1{
+ .language h1{
 height: fit-content;
 background-color: #ff8800;
 background: linear-gradient( to right,
@@ -219,7 +230,7 @@ margin-left: 41.5%;
 }
 .css{
 margin-top: -10.2%;
-height: 180px;
+height: 150px;
 margin-left: 66%;
 }
 
@@ -253,37 +264,70 @@ text-align: center;
 grid-column: span 3;
 background-color: rgb(224, 195, 29);
 padding: 5px;
+color: rgb(255, 255, 255);
    height: fit-content;
 text-align:center;
-font-size:24px;
+font-size:30px;
 }
 .box2{
-padding-left: 5px;
-
+  box-shadow:2px 1px  7px  rgb(70, 70, 70);
+margin-left: 150px;
+width: 310px;
+height: 150px;
 grid-column:span 1;
 
 }
 .box3{
-   
-padding-left: 50px;
+  margin-left: 60px;
+  box-shadow:2px 1px  7px  rgb(70, 70, 70);
+  height: 150px;
+  width: 310px;
+
   
 grid-column: span 1;
 }
 .box4{
-
+  width: 310px;
+  margin-left: 150px;
+  height: 150px;
+  box-shadow:2px 1px  7px  rgb(70, 70, 70);
 padding-left: 50px;
 grid-column:span 1;
 }
 .box5{
+  width: 310px;
+  height: 150px;
+  margin-left: 60px;
+  box-shadow:2px 1px  7px  rgb(70, 70, 70);
 padding-bottom: 50px;
 grid-column:span 1;
 }
 .box6{
+  height: 150px;
+  width: 310px;
+  margin-left: 150px;
+  box-shadow:2px 1px  7px  rgb(70, 70, 70);
 padding-bottom: 50px;
 grid-column:span 1;
 }
-/*project section using grid and little animation*/
-.project{
+.box7{
+  width: 310px;margin-left: 60px;
+  height: 150px;
+  box-shadow:2px 1px  7px  rgb(70, 70, 70);
+padding-left: 50px;
+grid-column:span 1;
+}
+
+.box8{
+  width: 310px;
+  height: 150px;
+  margin-left: 150px;
+  box-shadow:2px 1px  7px  rgb(70, 70, 70);
+padding-left: 50px;
+grid-column:span 1;
+}
+/*skills section using grid and little animation*/
+.skills{
  
   display: grid;
 
@@ -296,11 +340,12 @@ grid-column:span 1;
     
       }
     
-  .project>div{
+  .skills>div{
 
     padding: 5px;
-   color: aliceblue;
-   font-size: x-large;
+    text-shadow: 2px 1px  7px  rgb(70, 70, 70);
+   color: rgb(255, 255, 255);
+   font-size: 38px;
     border-radius: 8px;
     text-align: center;
     
@@ -308,35 +353,41 @@ grid-column:span 1;
 
 
   }
-   .project .header20{
+   .skills .header20{
     width: -19px;
+    
     grid-column: span 2;
     background-color: rgb(219, 193, 45);
     padding: 5px;
-    
+    color: rgb(255, 255, 255);
     height: fit-content;
     text-align:center;
-    font-size:25px;
+    font-size:30px;
     }
     .web{
-    margin-left: 200px;
-   margin-right: 100px;
+      box-shadow:2px 1px  7px  rgb(70, 70, 70);
+    margin-left: 100px;
+  
     width: 300px;
     text-align: center;
-    height: 300px;
+    height: 230px;
   
     grid-column:span 1;
     
     }
     
-  
+    img{
+                
+      width: 300px;
+      height: 200px;
+  }
     
     .OIP{
-     
+     box-shadow:2px 1px  7px rgb(70, 70, 70);
     width: 300px;
     text-align: center;
-    height: 300px;
-    margin-left: 200px;
+    height: 230px;
+    margin-left: 100px;
   
     
     
@@ -345,114 +396,40 @@ grid-column:span 1;
     
     .design{
     
-   
+      box-shadow:2px 1px  7px rgb(70, 70, 70);
       text-align: center;
     grid-column:span 1;
     width: 300px;
   
-    height: 300px;
+    height: 230px;
     }
       
     .ux{
+      box-shadow:2px 1px  7px  rgb(70, 70, 70);
       width: 300px;
       
-      height: 300px;
+      height: 230px;
       text-align: center;
         
       grid-column: span 1;
       }
-  
-    
-
-            /*services section grid layout*/
             
-            
-            .grid1>div{
-              
-                text-align: center;
-                color: #ffffff;
-                border-radius: 10px;
-               /* background-color: rgb(3, 3, 3);*/
-                padding: 8px;
-                
-            }
-            
-            .grid1 h1{
-               color: aliceblue;
-                text-align: center;
-                
-            }
-            img{
-                
-                width: 300px;
-                height: 200px;
-            }
-            
-            .grid1 .item1{
-                height: 40px;
-              
-                border-radius: 0;
-                grid-column: span 4;
-            
-            }
-            
-                
-            
-            .grid1 .footer{
-               
-              
-              justify-items: center;
-                margin-bottom: -50px;
-                background-color: rgb(185, 187, 189);
-                color: aliceblue;
-                grid-column: span 3;
-                padding-top: 14px;
-                border-radius: 0;
-            }
-            .grid1 .item10{
-                grid-column: span 4;
-                height: 332px;
-                background-color: rgb(162, 201, 235);
-                border-radius: 0;
-            }
-            #contact-icon{
-            justify-self: left;
-            display: inline;
-            padding-top:2% ;
-            
-            margin-left: -70%;}
-           /*footer*/
-
-
-           .footer{
-            background-color: rgb(100, 100, 100);
-            color:rgb(255, 255, 255);
-            text-shadow: 2px 1px  7px  rgb(255, 255, 255);
-            text-align: center;
-            padding: 10px;
-            width: 100%;
-               left: 0;
-               bottom:0;
-               
-            position: fixed;
-            
-              }
-/*  git and linkdin icon */
-.github1{
-  width: 25px;
-  height:25px;
-
-}
-.linkdin1{
-  width: 25px;
-  height: 25px;
-}
-
-
-   /* Footer Styling */
-
-
 /* Footer Container */
+ .footer{
+  background-color: rgb(100, 100, 100);
+  color:rgb(255, 255, 255);
+  text-shadow: 2px 1px  7px  rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+     left: 0;
+     bottom:0;
+     
+  position: fixed;
+  
+    }
+
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -476,7 +453,7 @@ grid-column:span 1;
 }
 
 .footer-section p {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300; /* Thin text */
   color: #ffffff; /* Slightly lighter color for elegance */
 }
@@ -494,9 +471,6 @@ grid-column:span 1;
   transition: transform 0.3s ease-in-out;
 }
 
-.social-links img:hover {
-  transform: scale(1.2);
-}
 
 /* Links */
 .footer-section a {
